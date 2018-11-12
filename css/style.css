@@ -40,7 +40,7 @@ a{
 	background-position: center;
 	padding: 250px;
 }
-.showcase:hover{
+.showcase: hover{
 	background-image: url(../images/humss.jpg);
 }
 .main-article {
