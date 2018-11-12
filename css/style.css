@@ -1,0 +1,94 @@
+
+body {
+	background: #cd0a78;
+	color: #fff;
+	padding: 10px 25px;
+}
+.button{
+	background-color: #d4f2a8;
+	padding: 10px 25px;
+	color: #f2ff;
+	box-shadow: 0 0 10px black;
+}
+.button:hover {
+	background-color: #01bc9b;
+	color: #42372c;
+}
+a{
+	text-decoration: none;
+}
+#button{
+	text-decoration: none;
+}
+.main-header {
+	margin-bottom: 0px;
+}
+#main-menu{
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+.showcase{
+	margin-bottom: 20px;
+	background-image: url(../images/liam.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 250px;
+}
+.showcase:hover{
+	background-image: url(../images/humss.jpg);
+}
+.main-article {
+	padding: 0;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 2fr 1fr;
+	box-shadow: 0 0 10px black;
+}
+.article-left {
+	padding: 5px;
+	background: #ede899;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	color: #414040;
+	
+}
+.article-left:hover{
+	background-color: #01bc9b;
+	color: #white;
+}
+.article-right{
+	padding: 80px;
+	background: #d6da8e;
+	TEXT-ALIGN: center;
+	color: #414040;
+}
+.article-right:hover{
+	background-color: #57e8c4;
+}
+.inside-left-first{
+	padding: 15px;
+}
+#image{
+	border: 10px black double;
+	padding: 10px;
+}
+.inside-left-second{
+	padding: 70px;
+	background: #ede899;
+	text-align: justify;
+}
+.inside-left-second:hover{
+	background: #12a13e;
+}
+.footer{
+	background-color: #5d7e72;
+	text-align: center;
+	margin-bottom: 10px;
+}
