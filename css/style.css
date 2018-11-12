@@ -32,15 +32,15 @@ a{
 	grid-gap: 20px;
 	grid-template-columns: repeat(4,1fr);
 }
-/*.showcase{
+.showcase{
 	margin-bottom: 20px;
 	background-image: url(../images/liam.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding: 250px;*/
+	padding: 250px;
 }
-.showcase: hover{
+.showcase:hover{
 	background-image: url(../images/humss.jpg);
 }
 .main-article {
